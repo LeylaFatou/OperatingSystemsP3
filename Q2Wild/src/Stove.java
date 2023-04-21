@@ -46,14 +46,15 @@ class Stove extends Thread {
      */
     public void prepare() {
         /* Q1 synchronized: allows only one thread to execute code block at any given time.
-        * to fix inconsistent results, such as
-        * input 1, output 15
-        * input 0, output 16
-        * input 2, output 14 */
+         * to fix inconsistent results, such as
+         * input 1, output 15
+         * input 0, output 16
+         * input 2, output 14 */
         synchronized (A) {
             A.get();
         }
-        try { Thread.sleep(64); } catch(InterruptedException e) {}
+        //Q2 comment out try to reduce waiting time... I don't really have a problem in this task
+        // try { Thread.sleep(64); } catch(InterruptedException e) {}
         synchronized (B) {
             B.put();
         }
