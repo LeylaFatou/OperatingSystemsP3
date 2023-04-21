@@ -34,8 +34,10 @@ class Kitchen {
     public void work() {
     	System.out.println("Starting kitchen work ...");
     	long initialTime = System.currentTimeMillis();
-   		stove1.work();
-   		stove2.work();
+        stove1.start();
+        stove2.start();
+   		stove1.run();
+   		stove2.run();
    		stockInput.display();
    		stockOutput.display();
    		System.out.println("... done ("+((double)(System.currentTimeMillis() - initialTime)/1000)+" second(s))");

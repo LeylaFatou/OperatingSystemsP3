@@ -46,7 +46,9 @@ class Stock {
      * Removes (takes) food
      */
     public void get() {
-        nbFood--;
+        if (nbFood >= 1) {
+            nbFood--;
+        }
     }
 
     /**

@@ -14,14 +14,14 @@
  * from Stock A, waits for 64 ms, and puts an element to stock B. The work() method
  * runs nbPrepare times the prepare() method, nbPrepare being set by the constructor.
  */
-class Stove {
+class Stove extends Thread {
 
 	/**
-	 * The initial stock
+	 * The initial stock (input stock)
 	 */
     private Stock A;
     /**
-     * The stock where to put prepared food
+     * The stock where to put prepared food (output stock)
      */
     private Stock B;
     /** 
@@ -53,22 +53,23 @@ class Stove {
     /**
      * Proceeds to nbPrepare preparations
      */
-    public void work() {
-        /* The name of this method should really be changed so as to override a
-         * central method of the Thread class, but which one...? 
-         */
+    @Override
+    public void run() {
+        super.run();
         for(; nbPrepare > 0; nbPrepare--)
             prepare();
     }
 
+
     /** 
-     * "Unit test" for class Stove (has no use for the rest of the lab!)
+     * "Unit test" for class Stove (
+     * has no use for the rest of the lab!)
      * @param args not used
      */
     static public void main(String[] args) {
         Stock stockInput = new Stock("input", 4);
         Stock stockOutput = new Stock("output", 1);
-        new Stove(stockInput, stockOutput, 2).work();
+        new Stove(stockInput, stockOutput, 2).run();
         stockInput.display();
         stockOutput.display();
     }
