@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c10124d5-7ca0-4915-80d9-5d723704d5b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Q2Wild/src/Kitchen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Q2Wild/src/Stock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Q2Wild/src/Stove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3Scheduling/Q3Scheduling.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3Scheduling/src/Kitchen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3Scheduling/src/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3Scheduling/src/Stove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q1Parallel/src/Kitchen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Q1Parallel/src/Kitchen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q1Parallel/src/Stove.java" beforeDir="false" afterPath="$PROJECT_DIR$/Q1Parallel/src/Stove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Q2Wild/Kitchen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Q2Wild/Kitchen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Q2Wild/Stove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Q2Wild/Stove.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,18 +33,30 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Q2Wild" />
+    <property name="jdk.selected.JAVA_MODULE" value="openjdk-19" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Q3Scheduling/src" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alina\OneDrive\Desktop\LeylaOperatingSystemsP3\Q3Scheduling\src" />
       <recent name="C:\Users\alina\OneDrive\Desktop\LeylaOperatingSystemsP3\Q2Wild" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Kitchen (1)">
+  <component name="RunManager" selected="Application.Kitchen (2)">
     <configuration name="Kitchen (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Kitchen" />
       <module name="Q2Wild" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Kitchen (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Kitchen" />
+      <module name="Q3Scheduling" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -62,6 +77,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Kitchen (2)" />
         <item itemvalue="Application.Kitchen (1)" />
         <item itemvalue="Application.Kitchen" />
         <item itemvalue="Application.Stove" />

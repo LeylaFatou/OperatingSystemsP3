@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/OperatingSystemsP3.iml" filepath="$PROJECT_DIR$/OperatingSystemsP3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Q1Parallel/Q1Parallel.iml" filepath="$PROJECT_DIR$/Q1Parallel/Q1Parallel.iml" />
       <module fileurl="file://$PROJECT_DIR$/Q2Wild/Q2Wild.iml" filepath="$PROJECT_DIR$/Q2Wild/Q2Wild.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q3Scheduling/Q3Scheduling.iml" filepath="$PROJECT_DIR$/Q3Scheduling/Q3Scheduling.iml" />
     </modules>
   </component>
 </project>
