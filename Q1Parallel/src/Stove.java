@@ -45,9 +45,13 @@ class Stove extends Thread {
      * Proceeds to a single preparation from food of Stock A to food of Stock B
      */
     public void prepare() {
-        A.get();
+        synchronized (A) {
+            A.get();
+        }
         try { Thread.sleep(64); } catch(InterruptedException e) {}
-        B.put();
+        synchronized (B) {
+            B.put();
+        }
     }
 
     /**

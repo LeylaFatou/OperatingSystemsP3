@@ -36,8 +36,13 @@ class Kitchen {
     	long initialTime = System.currentTimeMillis();
         stove1.start();
         stove2.start();
-   		stove1.run();
-   		stove2.run();
+        try {
+            //allow one thread to wait for the completion of the other
+            stove1.join();
+            stove2.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
    		stockInput.display();
    		stockOutput.display();
    		System.out.println("... done ("+((double)(System.currentTimeMillis() - initialTime)/1000)+" second(s))");
