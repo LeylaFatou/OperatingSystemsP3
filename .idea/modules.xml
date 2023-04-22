@@ -6,6 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/Q1Parallel/Q1Parallel.iml" filepath="$PROJECT_DIR$/Q1Parallel/Q1Parallel.iml" />
       <module fileurl="file://$PROJECT_DIR$/Q2Wild/Q2Wild.iml" filepath="$PROJECT_DIR$/Q2Wild/Q2Wild.iml" />
       <module fileurl="file://$PROJECT_DIR$/Q3Scheduling/Q3Scheduling.iml" filepath="$PROJECT_DIR$/Q3Scheduling/Q3Scheduling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q4Reorganize/Q4Reorganize.iml" filepath="$PROJECT_DIR$/Q4Reorganize/Q4Reorganize.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q6Threes/Q6Threes.iml" filepath="$PROJECT_DIR$/Q6Threes/Q6Threes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q7FastFood/Q7FastFood.iml" filepath="$PROJECT_DIR$/Q7FastFood/Q7FastFood.iml" />
     </modules>
   </component>
 </project>

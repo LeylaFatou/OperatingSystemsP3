@@ -17,16 +17,20 @@ class Kitchen {
 	/**
 	 * Stock of food to prepare
 	 */
-    Stock stockInput = new Stock("input", 100000000);
+    Stock stockInput = new Stock("input", 16);
     /**
      * Stock of final (prepared) food
      */
     Stock stockOutput = new Stock("output", 0);
     /**
+     * Stock of intermediary (half-prepared) food
+     */
+    Stock stockIntermed = new Stock("intermed", 0);
+    /**
      * Stoves for the preparations
      */
-    Stove stove1 = new Stove(stockInput, stockOutput, 50000000);
-    Stove stove2 = new Stove(stockInput, stockOutput, 50000000);
+    Stove stove1 = new Stove(stockInput, stockIntermed, 16);
+    Stove stove2 = new Stove(stockIntermed, stockOutput, 16);
     
     /**
      * Main entry point: proceed to operate the kitchen work of preparation

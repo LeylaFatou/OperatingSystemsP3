@@ -17,30 +17,38 @@ class Kitchen {
 	/**
 	 * Stock of food to prepare
 	 */
-    Stock stockInput = new Stock("input", 100000000);
+    Stock stockInput = new Stock("input", 16);
     /**
      * Stock of final (prepared) food
      */
     Stock stockOutput = new Stock("output", 0);
     /**
+     * Stock of intermediary (half-prepared) food
+     */
+    Stock stockIntermed = new Stock("intermed", 0);
+    /**
      * Stoves for the preparations
      */
-    Stove stove1 = new Stove(stockInput, stockOutput, 50000000);
-    Stove stove2 = new Stove(stockInput, stockOutput, 50000000);
-    
+    Stove stove1 = new Stove(stockInput, stockIntermed, 16);
+    // stove 2 and 3 share the workload of intermed → output (equally)
+    Stove stove2 = new Stove(stockIntermed, stockOutput, 8);
+    Stove stove3 = new Stove(stockIntermed, stockOutput, 8);
+
     /**
      * Main entry point: proceed to operate the kitchen work of preparation
      */
     public void work() {
     	System.out.println("Starting kitchen work ...");
     	long initialTime = System.currentTimeMillis();
-        stove1.start();
         stove2.start();
+        stove3.start();
+        stove1.start(); //launch last
         try {
             /* Q1 allow one thread to wait for the completion of the other,
             to inhibit inconsistent results (more output than food was available) */
-            stove1.join();
             stove2.join();
+            stove3.join();
+            stove1.join(); //launch last
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

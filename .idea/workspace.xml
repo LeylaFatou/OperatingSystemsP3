@@ -5,15 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c10124d5-7ca0-4915-80d9-5d723704d5b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Q3Scheduling/Q3Scheduling.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Q3Scheduling/src/Kitchen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Q3Scheduling/src/Stock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Q3Scheduling/src/Stove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q4Reorganize/Q4Reorganize.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q4Reorganize/src/Kitchen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q4Reorganize/src/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q4Reorganize/src/Stove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q6Threes/Q6Threes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q6Threes/src/Kitchen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q6Threes/src/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q6Threes/src/Stove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q7FastFood/Q7FastFood.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q7FastFood/src/Kitchen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q7FastFood/src/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q7FastFood/src/Stove.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Q2Wild/src/Kitchen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Q2Wild/src/Kitchen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Q2Wild/Kitchen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Q2Wild/Kitchen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Q2Wild/Stove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Q2Wild/Stove.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,21 +40,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="jdk.selected.JAVA_MODULE" value="openjdk-19" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Q3Scheduling/src" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "last_opened_file_path": "/Users/leyla/OperatingSystemsP3/Q7FastFood/src",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Q7FastFood/src" />
+      <recent name="$PROJECT_DIR$/Q6Threes" />
+      <recent name="$PROJECT_DIR$/Q4Reorganize" />
       <recent name="C:\Users\alina\OneDrive\Desktop\LeylaOperatingSystemsP3\Q3Scheduling\src" />
       <recent name="C:\Users\alina\OneDrive\Desktop\LeylaOperatingSystemsP3\Q2Wild" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Kitchen (2)">
+  <component name="RunManager" selected="Application.Kitchen (5)">
     <configuration name="Kitchen (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Kitchen" />
       <module name="Q2Wild" />
@@ -61,26 +75,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Kitchen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Kitchen (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Kitchen" />
-      <module name="Q1Parallel" />
+      <module name="Q4Reorganize" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Stove" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stove" />
-      <module name="Q1Parallel" />
+    <configuration name="Kitchen (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Kitchen" />
+      <module name="Q6Threes" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Kitchen (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Kitchen" />
+      <module name="Q7FastFood" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Kitchen (5)" />
+        <item itemvalue="Application.Kitchen (4)" />
+        <item itemvalue="Application.Kitchen (3)" />
         <item itemvalue="Application.Kitchen (2)" />
         <item itemvalue="Application.Kitchen (1)" />
-        <item itemvalue="Application.Kitchen" />
-        <item itemvalue="Application.Stove" />
       </list>
     </recent_temporary>
   </component>
